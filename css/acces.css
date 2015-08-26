@@ -1,0 +1,28 @@
+h3 {
+	margin-bottom:0;
+	padding-left:20px;
+}
+.minimap {
+	display:block;
+	text-align:center;
+	padding:10px;
+}
+#div_carte {
+	height :46%;
+	width : 62.5%;
+	margin : auto;
+	border : 1px solid #888;
+}
+#transport {
+	padding:40px 0;
+}
+#transport p {
+	padding-left:50px;
+}
+#transport a {
+	text-decoration:none;
+	color:#37C0FC;
+}
+#transport a:hover {
+	text-decoration: underline;
+}

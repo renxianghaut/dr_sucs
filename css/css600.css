@@ -1,0 +1,180 @@
+@media screen and (max-width: 1024px) {
+
+
+
+body {
+	font-size: 62.5%;
+	font: normal 100% Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	margin:0 auto;
+	background:url("../images/bg600.gif") repeat-x left top;
+}
+
+img {
+	max-width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#global {
+	background: url("../images/bottom.gif") repeat-x left bottom;
+}
+
+#wrapper {
+	width:71%;
+	margin: 0 auto;
+	padding:0 ;
+}
+
+#content {
+	min-height: 800px;
+}
+#top-bar{
+	height:330px;
+	width:100%;
+}
+
+#logo {
+	height:60px;
+	width:115px;
+	float:left;
+	padding-top:15px;
+	}
+h1 {
+	font-size:1.2em;
+	color:#eb35b7;
+	float:left;
+	padding-left:20px;
+	padding-top:10px;
+	}
+h2 {
+	font-size:1.2em;
+	float:left;
+	padding-top:20px;
+	padding-left:20%;
+}
+#mac  {
+	width:100%;
+	float: left;
+	height:233px;
+	padding-top:7px;
+}
+#mac ul {
+	list-style:none;
+	clear:both;
+	margin-top:5px;
+	overflow:hidden;
+	height:296px;
+}
+nav {
+	display:block;
+	width:100%;
+}
+nav ul {
+	height:50px;
+	margin-bottom:2px;
+}
+nav li {
+	float: left;
+	list-style: none;
+	height:50px;
+	position:relative;
+}
+
+nav a {
+	bottom:10px;
+	font-weight:bold;
+    color:#FFF;
+    text-decoration:none;
+	display:inline-block ;
+	padding:0 30px;
+	text-shadow:0 2px 2px rgba(0,0,0, .7);
+	line-height:50px;
+}
+
+nav a img {
+	float:left;
+	padding-top:10px;
+	padding-right:8px;
+}
+
+nav li:hover, nav .current {
+    background:url("../images/menu-bar.gif") repeat-x;
+    color:#fff;
+    text-shadow:0 2px 2px rgba(0,0,0, 0.7);
+	-webkit-border-radius: 10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+}
+
+footer {
+	font-size:0.8em;
+	width:100%;
+	height:220px;
+}
+footer img {
+	padding-right:10px;
+	padding-top:15px;
+}
+#membre {
+	float:left;
+	width:45%;
+}
+#membre ul {
+	margin-top:5px;
+}
+#adresse {
+	float:left;
+	width:20%;
+	padding:50px 0px 45px 35px;
+}
+#contact {
+	float:left;
+	padding:20px 0 0 17px;
+	width:27%;
+}
+#footer-bottom {
+	float:left;
+	padding:30px 110px;
+}
+.telephone{
+	margin:0;
+	font-size:18px;
+	font-family:arial;
+}
+/*-----------contact-------------*/
+#adresse-a {
+	float:left;
+	padding-left:100px;
+	padding-top:30px;
+}
+#tel-mail {
+	float:left;
+	padding-left:60px;
+	padding-top:30px;
+}
+#contact-nous {
+	margin-top:20px;
+	background-color:#FFF3F3;
+	padding:15px 100px;
+ }
+ textarea {
+	width:100%;
+ }
+}

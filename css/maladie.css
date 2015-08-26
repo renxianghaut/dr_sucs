@@ -1,0 +1,37 @@
+h3 {
+	text-align:center;
+}
+h4 {
+	font-size:1em;
+	margin-top:0;
+	margin-bottom:0;
+	padding-left:10px;
+}
+.textsa:hover,.textsb:hover,.textsc:hover{
+	background:#cdcdcd;
+}
+.textsa {
+	padding:10px 10px;
+	min-height:250px;
+}
+.textsa img,.textsc img  {
+	float:left;
+	padding:10px;
+}
+.textsb {
+	padding:20px;
+	border-top:2px #000 dotted;
+	border-bottom:2px #000 dotted;
+}
+.textsb img {
+	float:right;
+	padding:10px;
+}
+.textsc {
+	padding:20px 10px 20px 10px;
+	min-height:250px;
+}
+
+.textse {
+	height:20px;
+}

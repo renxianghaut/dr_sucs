@@ -1,0 +1,107 @@
+@media screen and (max-width: 400px) {
+
+body {
+	padding:0;
+	margin:0;
+	background:none;
+}
+html {
+	font-size: 14px;
+	width:100%;
+}
+img {
+	max-width:100%;
+}
+#global {
+	clear:both;
+	background:none;
+}
+#wrapper {
+	width:100%;
+}
+#top-bar {
+	height:95px;
+	width:100%;
+	background:url("../images/top.jpg") repeat-x ;
+}
+h1 {
+	font-size: 14px;
+}
+h2 {
+	font-size: 16px;
+	margin:0;
+	padding:0;
+}
+#mac{
+	display:none;
+}
+nav {
+	padding: 0;
+	margin:0;
+	font-size: 14px;
+	height:200px;
+	width:100%;
+	background-color:#97C71F;
+	border:1px #cdcdcd solid;
+}
+nav ul{
+    padding: 0;
+}
+nav ul li {
+     width: 100%;
+	 color:#000;
+    }
+nav li:hover, nav li .current {
+   background:none;
+
+ }
+#content-left,#content-right {
+	padding:5px;
+	width:100%;
+}
+.page-right{
+	width: auto;
+	padding:10px;
+}
+#membre {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:#ABF000;
+}
+#adresse {
+	margin:0;
+	width:100%;
+	padding:15px 30px 0 30px;
+	font-size: 150%;
+}
+#contact {
+	padding:0 0 15px 30px;
+	width:100%;
+}
+#footer-bottom {
+	display:none;
+}
+/*----------------contact--------------*/
+#adresse-a {
+	padding-left:35px;
+	padding-top:0;
+	width:100%;
+}
+#tel-mail {
+	width:100%;
+}
+form p {
+	padding-left:10px;
+}
+#contact-nous{
+	width:100%;
+	padding:0;
+}
+input[id=from] {
+	width:220px;
+}
+textarea {
+	width:95%;
+}
+}
