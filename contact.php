@@ -1,11 +1,11 @@
-
+<!doctype html>
 <html>
 	<head>
 		<title>
 			Docteur.Sucs
 		</title>
 
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -139,15 +139,15 @@
 			<h3>Contactez Nous</h3>
 			<p>
                 <label for="nom">Nom et Prénom</label><br/>
-                <input type="text" name="nom" id="nom" value="<?php echo( $nom ); ?>" />
+                <input type="text" name="nom" id="nom" />
             </p>
             <p>
                 <label for="from">Adresse email</label> <br/>
-                <input type="text" name="from" id="from" value="<?php echo( $from ); ?>" />
+                <input type="text" name="from" id="from"  />
             </p>
             <p>
                 <label for="message">Message</label> <br/>
-                <textarea name="message" id="message" rows="20" cols="80"><?php echo( $message ); ?></textarea>
+                <textarea name="message" id="message" rows="20" cols="80"></textarea>
             </p>
             <p>
                 <input type="reset" name="reset"  value="Effacer" />
