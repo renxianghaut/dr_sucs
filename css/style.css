@@ -74,6 +74,8 @@ h2 {
 #mac ul {
 	list-style:none;
 	clear:both;
+    margin: auto;
+    max-width:960px;
 	margin-top:5px;
 	overflow:hidden;
 	height:296px;
