@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="fr">
 	<head>
 		<title>
 			Ophtalmologie Bruxelles Docteur Sucs
@@ -49,11 +49,10 @@
             </div>
 
 <?php
-    define( 'MAIL_TO', /* >>>>> */'yves21.haut@gmail.com'/* <<<<< */ );  //ajouter votre courriel
-	define( 'MAIL_NOM', /* >>>>> */'Nom et prénom'/* <<<<< */ );
-    define( 'MAIL_FROM', 'utilisateur@domaine.tld' ); // valeur par défaut
-    define( 'MAIL_OBJECT', 'objet du message' ); // valeur par défaut
-    define( 'MAIL_MESSAGE', 'votre message' ); // valeur par défaut
+    define( 'MAIL_TO', /* >>>>> */'noreply@ophtalmo-bxl.be'/* <<<<< */ );  //ajouter votre courriel
+	define( 'MAIL_NOM', /* >>>>> */''/* <<<<< */ );
+    define( 'MAIL_FROM', '' ); // valeur par défaut
+    define( 'MAIL_MESSAGE', '' ); // valeur par défaut
 
     $mailSent = false;
     $errors = array();
@@ -71,10 +70,10 @@
             $from = filter_input( INPUT_POST, 'from', FILTER_SANITIZE_EMAIL );
         }
 
-        $object = filter_input( INPUT_POST, 'object', FILTER_SANITIZE_STRING, FILTER_FLAG_ENCODE_HIGH | FILTER_FLAG_ENCODE_LOW );
-        if( $object === NULL OR $object === false OR empty( $object ) OR $object === MAIL_OBJECT ) // si l'objet fourni est vide, invalide ou égale à la valeur par défaut
+        $nom = filter_input( INPUT_POST, 'nom', FILTER_SANITIZE_STRING, FILTER_FLAG_ENCODE_HIGH | FILTER_FLAG_ENCODE_LOW );
+        if( $nom === NULL OR $nom === false OR empty( $nom ) OR $nom === MAIL_NOM ) // si le nom fourni est vide, invalide ou égale à la valeur par défaut
         {
-            $errors[] = 'Vous devez renseigner l\'objet.';
+            $errors[] = 'Vous devez renseigner votre nom.';
         }
 
         $message = filter_input( INPUT_POST, 'message', FILTER_UNSAFE_RAW );
@@ -132,15 +131,15 @@
 			<h3>Contactez Nous</h3>
 			<p>
                 <label for="nom">Nom et Prénom</label><br/>
-                <input type="text" name="nom" id="nom" />
+                <input type="text" name="nom" id="nom" value="<?= $nom ?>" />
             </p>
             <p>
                 <label for="from">Adresse email</label> <br/>
-                <input type="text" name="from" id="from"  />
+                <input type="text" name="from" id="from"  value="<?= $from ?>" />
             </p>
             <p>
                 <label for="message">Message</label> <br/>
-                <textarea name="message" id="message" rows="20" cols="80"></textarea>
+                <textarea name="message" id="message" rows="20" cols="80"><?= $message ?></textarea>
             </p>
             <p>
                 <input type="reset" name="reset"  value="Effacer" />
@@ -167,7 +166,4 @@
 			});
 		</script>
 	</body>
-</html>
-
-    </body>
 </html>
