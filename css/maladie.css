@@ -1,42 +1,31 @@
-h3 {
-	text-align:center;
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
 }
-h4 {
-	font-size:1em;
+h2 {
+    font-size: 1.5em;
 	margin-top:0;
-	margin-bottom:0;
-	padding-left:10px;
+	margin-bottom:10px;
+    text-decoration: underline;
 }
-.textsa:hover,.textsb:hover,.textsc:hover{
-	background:#cdcdcd;
+
+.sickness:hover {
+	background:#779d34;
+    color:white;
 }
-.textsa {
-	padding:10px 10px;
-	min-height:250px;
-    border-top:1px #9A9898 solid;
+.sickness {
+    padding:10px;
+    min-height:250px;
     overflow : hidden;
 }
-.textsa img,.textsc img  {
+.sickness .leftimg  {
 	float:left;
 	padding:10px;
 }
-.textsb {
-	padding:20px;
-	border-top:1px #9A9898 solid;
-	border-bottom:1px #9A9898 solid;
-    overflow : hidden;
-}
-.textsb img {
+
+.sickness .rightimg {
 	float:right;
 	padding:10px;
-}
-.textsc {
-	padding:20px 10px 20px 10px;
-	min-height:250px;
-    overflow : hidden;
-}
-
-.textse {
-	height:20px;
-    overflow : hidden;
 }

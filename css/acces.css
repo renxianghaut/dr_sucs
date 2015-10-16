@@ -1,11 +1,14 @@
-h3 {
+h1 {
+    font-size: 2em;
 	margin-bottom:0;
 	padding-left:20px;
+    text-decoration: underline;
 }
-.minimap {
+.address {
 	display:block;
 	text-align:center;
 	padding:10px;
+    font-weight: bold;
 }
 #div_carte {
 	height :268px;
@@ -21,7 +24,8 @@ h3 {
 }
 #transport a {
 	text-decoration:none;
-	color:#37C0FC;
+	color:#324f00;
+    font-weight: bold;
 }
 #transport a:hover {
 	text-decoration: underline;

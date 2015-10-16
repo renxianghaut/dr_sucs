@@ -8,7 +8,7 @@ h4 {
 h5 {
     color:beige;
     text-align: center;
-    border-bottom: 1px #888888 solid;
+    border-bottom: 1px #527614 solid;
 }
 #content {
 	padding:30px 0;
@@ -17,37 +17,10 @@ h5 {
 #content ul li {
 	list-style:circle;
 }
-#language {
-    float:left;
+
+.index-left {
     padding:20px;
-    border:1px #888888 solid;
+    border:1px #527614 solid;
     border-radius: 5px;
-    background: #737171;
-    width:200px;
-}
-#content-left {
-    float:left;
-    padding:10px 20px;
-}
-#tata li:nth-child(n+3):nth-child(-n+6){
-	list-style:none;
-	padding-left:30px;
-}
-.page-right:first-child{
-	padding-top:5px;
-}
-.page-right {
-	padding-left:60px;
-	text-align:left;
-	padding-top:30px;
-}
-.page-right img {
-	border:1px #000 solid;
-	box-shadow: 2px 4px 5px #888888;
-}
-#langue {
-	font-size:1em;
-}
-#txtspan {
-	font-size:0.8em;
+    background: #527614;
 }
