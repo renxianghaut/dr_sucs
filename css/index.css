@@ -6,24 +6,28 @@ h4 {
 	font-size:1em;
 }
 h5 {
-	font-size:1em;
-	text-align:center;
-	margin:0;
+    color:beige;
+    text-align: center;
+    border-bottom: 1px #888888 solid;
 }
 #content {
 	padding:30px 0;
 }
-#content-left {
-	float:left;
-	width:70%;
-}
-#content-right{
-	float:left;
-	padding-left:30px;
-	width:25%;
-}
+
 #content ul li {
 	list-style:circle;
+}
+#language {
+    float:left;
+    padding:20px;
+    border:1px #888888 solid;
+    border-radius: 5px;
+    background: #737171;
+    width:200px;
+}
+#content-left {
+    float:left;
+    padding:10px 20px;
 }
 #tata li:nth-child(n+3):nth-child(-n+6){
 	list-style:none;

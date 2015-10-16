@@ -13,6 +13,7 @@ h4 {
 .textsa {
 	padding:10px 10px;
 	min-height:250px;
+    border-top:1px #9A9898 solid;
     overflow : hidden;
 }
 .textsa img,.textsc img  {
@@ -21,8 +22,8 @@ h4 {
 }
 .textsb {
 	padding:20px;
-	border-top:2px #000 dotted;
-	border-bottom:2px #000 dotted;
+	border-top:1px #9A9898 solid;
+	border-bottom:1px #9A9898 solid;
     overflow : hidden;
 }
 .textsb img {
