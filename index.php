@@ -16,7 +16,7 @@
 
         <?php require('parts/header.php'); ?>
 
-        <div id="slider" class="row">
+        <div id="slider" class="row hidden-xs">
             <ul>
                 <li><img src="img/slider-a.jpg" alt="pub" /></li>
                 <li><img src="img/slider-b.jpg" alt="pub" /></li>
