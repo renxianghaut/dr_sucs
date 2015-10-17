@@ -1,21 +1,25 @@
 <?php $pagename = basename($_SERVER['PHP_SELF']);
     if ($pagename == 'index.php') {
-        $pagetitle = '';
+        $pagetitle = 'Ophtalmologie Bruxelles Docteur Sucs';
+        $pagedesc = "Pour un examen des yeux, un traitement médical, ou esthétique des yeux, prenez contact avec le Dr Sucs Françoise, Ophtalmologue.";
     } else if ($pagename == 'maladie.php') {
-        $pagetitle = ' - Maladie';
+        $pagetitle = 'Maladie';
+        $pagedesc = "Les différentes maladies de la vue.";
     } else if ($pagename == 'acces.php') {
-        $pagetitle = ' - Accès';
+        $pagetitle = 'Accès';
+        $pagedesc = "Comment se rendre chez l'opthalmologue Docteur Sucs";
     } else if ($pagename == 'contact.php') {
-        $pagetitle = ' - Contact';
+        $pagetitle = 'Contact';
+        $pagedesc = "Comment contacter ou prendre rendez-vous avec l'opthalmologue Docteur Sucs";
     }
 ?>
 
-<title>Ophtalmologie Bruxelles Docteur Sucs<?= $pagetitle ?></title>
+<title><?= $pagetitle ?></title>
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="keywords" content="DR. SUCS, Françoise, Bruxelles, Opthalmologie, Opthalmologue, Oogarts, [Docteurs en médecine]" />
-<meta name="description" content="Pour un examen des yeux, un traitement médical, ou esthétique des yeux, prenez contact avec le Dr Sucs Françoise, Ophtalmologue." />
+<meta name="description" content="<?=$pagedesc?>" />
 
 <meta property="og:title" content="Opthalmologue / Oogarts à Bruxelles, Dr. Sucs"/>
 <meta property="og:type" content="website"/>
