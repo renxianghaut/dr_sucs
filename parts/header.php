@@ -1,6 +1,6 @@
 <div id="header" class="row">
     <div id="banner">
-        <a href="index.php" title="Home"><span class="glyphicon glyphicon-home"></span></a>
+        <a href="index.php" title="Home"><span class="glyphicon glyphicon-home"></span></a><div class="right">DR SUCS - OPHTALMOLOGUE</div>
     </div>
     <div id="top-bar">
         <div class="topleft">

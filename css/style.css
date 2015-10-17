@@ -14,11 +14,14 @@ textarea {
 #banner {
     background-color: #324F00;
     padding: 10px;
+    color: #cfec9d;
 }
 #banner a {
     color: #cfec9d;
 }
-
+#banner .right {
+    float: right;
+}
 #top-bar{
     height:130px;
 }
