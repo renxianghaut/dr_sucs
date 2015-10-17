@@ -30,7 +30,7 @@
                 <span id="langue">En français, nederlands, deutsch, english, magyar.</span>
                 <h2>Situé</h2>
                 en face de l'abbaye de la Cambre (entre l'Avenue Louise et l'Avenue Franklin Roosevelt),
-                <br/><span id="txtspan"> Pas loin du Bld Géneral Jacques</span>
+                <br/><span id="txtspan"> Pas loin du Bld Géneral Jacques <br/> Pas loin de l'UCL</span>
             </div>
             <div class="col-md-6">
                 <h2>Docteur F.E. SUCS</h2>
