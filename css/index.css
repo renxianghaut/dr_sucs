@@ -18,13 +18,28 @@ h2 {
     border-radius: 5px;
     background: #527614;
     color: #cfec9e;
-
 }
+
+.index-left h2 {
+    border-bottom: 1px #cfec9e solid;
+}
+
 .section {
     float: left;
 }
+.photos {
+    clear: both;
+}
 .photos img {
-    float: left;
     width:170px;
     padding: 5px;
+}
+.simply-scroll {
+    height: 120px;
+}
+.simply-scroll .simply-scroll-clip {
+    height: 120px;
+}
+.simply-scroll .simply-scroll-clip li {
+    width:180px;
 }

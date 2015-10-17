@@ -6,7 +6,8 @@
 
 <head>
     <?php require('parts/common-head.php'); ?>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.simplyscroll.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
@@ -60,15 +61,21 @@
                         <li>Autres examens possible</li>
                     </ul>
                 </div>
-                <div class="photos"><img src="img/entree.jpg" /><img src="img/lunette.jpg" /><img src="img/coin.jpg" /></div>
+                <div class="photos">
+                    <ul id="scroller">
+                        <li><img src="img/entree.jpg" /></li>
+                        <li><img src="img/lunette.jpg" /></li>
+                        <li><img src="img/coin.jpg" /></li>
+                    </ul>
+                </div>
             </div>
 
             <div class="col-md-3">
-                <h2><span class="glyphicon glyphicon-user"></span> Membre:</h2>
+                <h2><span class="glyphicon glyphicon-user"></span> Membre de</h2>
                 <ul>
-                    <li>Membre de la Société Belge d'Ophtalmologie</li>
-                    <li>Membre de la Société Allemande d'Ophtalmologie (D.O.G.)</li>
-                    <li>Membre de la Société Française d’Ophtalmologie</li>
+                    <li>la Société Belge d'Ophtalmologie</li>
+                    <li>la Société Allemande d'Ophtalmologie (D.O.G.)</li>
+                    <li>la Société Française d’Ophtalmologie</li>
                     <li>Société belge de médecine esthétique et société allemande de médecine esthétique.</li>
                 </ul>
             </div>
@@ -81,6 +88,7 @@
     <?php require('parts/common-scripts.php'); ?>
 
     <script type="text/javascript" src="js/vendor/jquery-cycle.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.simplyscroll.min.js"></script>
     <script>
         $(document).ready(function () {
             $('div#slider ul').cycle({
@@ -88,6 +96,13 @@
                 pause: 10
             });
         });
+    </script>
+    <script type="text/javascript">
+        (function($) {
+            $(function() { //on DOM ready
+                    $("#scroller").simplyScroll({pauseOnHover:false});
+            });
+         })(jQuery);
     </script>
 </body>
 
