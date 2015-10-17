@@ -49,7 +49,7 @@
 
         <div class="content row">
             <div id="adresse">
-                Dr Franciska Sucs<br/>
+                Dr.F.E Sucs<br/>
                 OPHTALMOLOGIE<br/>
                 23 avenue Emile De Mot<br/>
                 1000 Bruxelles<br/>
