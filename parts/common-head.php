@@ -1,7 +1,16 @@
-<?php $pagename = basename($_SERVER['PHP_SELF']); ?>
-<title>
-    Ophtalmologie Bruxelles Docteur Sucs
-</title>
+<?php $pagename = basename($_SERVER['PHP_SELF']);
+    if ($pagename == 'index.php') {
+        $pagetitle = '';
+    } else if ($pagename == 'maladie.php') {
+        $pagetitle = ' - Maladie';
+    } else if ($pagename == 'acces.php') {
+        $pagetitle = ' - Accès';
+    } else if ($pagename == 'contact.php') {
+        $pagetitle = ' - Contact';
+    }
+?>
+
+<title>Ophtalmologie Bruxelles Docteur Sucs<?= $pagetitle ?></title>
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
