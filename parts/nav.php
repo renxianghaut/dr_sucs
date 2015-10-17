@@ -1,4 +1,3 @@
-<?php $pagename = basename($_SERVER['PHP_SELF']); ?>
 <nav>
     <ul>
         <li><a href="index.php" <?php if ($pagename=='index.php') { echo "class=\"current\""; } ?>><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
