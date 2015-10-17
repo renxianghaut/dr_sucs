@@ -26,23 +26,27 @@
         <div class="row content">
             <div class="col-md-3 index-left">
                 <img src="img/eye.jpg" />
-                <h5>Consultations</h5>
+                <h2>Consultations</h2>
                 <span id="langue">En français, nederlands, deutsch, english, magyar.</span>
-                <h5>Situé</h5> en face de l'abbaye de la Cambre (entre l'Avenue Louise et l'Avenue Franklin Roosevelt),
+                <h2>Situé</h2>
+                en face de l'abbaye de la Cambre (entre l'Avenue Louise et l'Avenue Franklin Roosevelt),
                 <br/><span id="txtspan"> Pas loin du Bld Géneral Jacques</span>
             </div>
             <div class="col-md-6">
-                <h3> Docteur F.E. SUCS</h3>
+                <h2>Docteur F.E. SUCS</h2>
                 <ul id="tata">
                     <li>Diplôme en Médecine à l'Université Libre de Bruxelles</li>
-                    <li>Spécialisation en Ophtalmologie:</li>
-                    <li>-Albert-Ludwigs Universität Freiburg (Allemagne)</li>
-                    <li>-Ludwig Maximilians Universität (Munchen)</li>
-                    <li>-Harvard Medical School - Post Graduate Course in Ophtalmology (USA - Boston)</li>
-                    <li>-Université Libre de Bruxelles (hôpital Erasme)</li>
+                    <li>Spécialisation en Ophtalmologie:
+                        <ul>
+                        <li>Albert-Ludwigs Universität Freiburg (Allemagne)</li>
+                        <li>Ludwig Maximilians Universität (Munchen)</li>
+                        <li>Harvard Medical School - Post Graduate Course in Ophtalmology (USA - Boston)</li>
+                        <li>Université Libre de Bruxelles (hôpital Erasme)</li>
+                        </ul>
+                    </li>
                     <li>Trois missions ophtalmologiques au Cambodge (Médecins sans frontiéres)</li>
                 </ul>
-                <h4>Informations générales</h4>
+                <h2>Informations générales</h2>
                 <ul>
                     <li>Examen ophtalmologique général</li>
                     <li>Examen ophtalmologique pédiatrique avec dépistage du strabisme (aussitôt que possible)</li>
@@ -55,7 +59,7 @@
             </div>
 
             <div class="col-md-3">
-                <span class="glyphicon glyphicon-user"></span> Membre:
+                <h2><span class="glyphicon glyphicon-user"></span> Membre:</h2>
                 <ul>
                     <li>Membre de la Société Belge d'Ophtalmologie</li>
                     <li>Membre de la Société Allemande d'Ophtalmologie (D.O.G.)</li>
