@@ -30,32 +30,37 @@
                 <span id="langue">En français, nederlands, deutsch, english, magyar.</span>
                 <h2>Situé</h2>
                 en face de l'abbaye de la Cambre (entre l'Avenue Louise et l'Avenue Franklin Roosevelt),
-                <br/><span id="txtspan"> Pas loin du Bld Géneral Jacques <br/> Pas loin de l'UCL</span>
+                <br/>Pas loin du Bld Géneral Jacques <br/> Pas loin de l'UCL
             </div>
             <div class="col-md-6">
-                <h2>Docteur F.E. SUCS</h2>
-                <ul id="tata">
-                    <li>Diplôme en Médecine à l'Université Libre de Bruxelles</li>
-                    <li>Spécialisation en Ophtalmologie:
-                        <ul>
-                        <li>Albert-Ludwigs Universität Freiburg (Allemagne)</li>
-                        <li>Ludwig Maximilians Universität (Munchen)</li>
-                        <li>Harvard Medical School - Post Graduate Course in Ophtalmology (USA - Boston)</li>
-                        <li>Université Libre de Bruxelles (hôpital Erasme)</li>
-                        </ul>
-                    </li>
-                    <li>Trois missions ophtalmologiques au Cambodge (Médecins sans frontiéres)</li>
-                </ul>
-                <h2>Informations générales</h2>
-                <ul>
-                    <li>Examen ophtalmologique général</li>
-                    <li>Examen ophtalmologique pédiatrique avec dépistage du strabisme (aussitôt que possible)</li>
-                    <li>Dépistage du glaucome</li>
-                    <li>Diagnostic des maladies rétiniennes</li>
-                    <li>Sélection médicale : chauffeurs, conducteurs de train, pilotes, ...</li>
-                    <li>Soins esthetiques</li>
-                    <li>Autres examens possible</li>
-                </ul>
+                <div class="section">
+                    <h2>Docteur F.E. SUCS</h2>
+                    <ul>
+                        <li>Diplôme en Médecine à l'Université Libre de Bruxelles</li>
+                        <li>Spécialisation en Ophtalmologie:
+                            <ul>
+                            <li>Albert-Ludwigs Universität Freiburg (Allemagne)</li>
+                            <li>Ludwig Maximilians Universität (Munchen)</li>
+                            <li>Harvard Medical School - Post Graduate Course in Ophtalmology (USA - Boston)</li>
+                            <li>Université Libre de Bruxelles (hôpital Erasme)</li>
+                            </ul>
+                        </li>
+                        <li>Trois missions ophtalmologiques au Cambodge (Médecins sans frontiéres)</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Informations générales</h2>
+                    <ul>
+                        <li>Examen ophtalmologique général</li>
+                        <li>Examen ophtalmologique pédiatrique avec dépistage du strabisme (aussitôt que possible)</li>
+                        <li>Dépistage du glaucome</li>
+                        <li>Diagnostic des maladies rétiniennes</li>
+                        <li>Sélection médicale : chauffeurs, conducteurs de train, pilotes, ...</li>
+                        <li>Soins esthetiques</li>
+                        <li>Autres examens possible</li>
+                    </ul>
+                </div>
+                <div class="photos"><img src="img/entree.jpg" /><img src="img/lunette.jpg" /><img src="img/coin.jpg" /></div>
             </div>
 
             <div class="col-md-3">
