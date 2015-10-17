@@ -43,3 +43,17 @@ input, textarea{
 input[type=submit], input[type=reset] {
 	cursor:pointer;
 }
+
+#success {
+    margin-left: 25px;
+    clear:both;
+    margin-top:20px;
+    color:#324f00;
+}
+.errors {
+    clear:both;
+    margin-left: 25px;
+    margin-top:20px;
+    color:rgb(255, 76, 76);
+    font-weight: bold;
+}
