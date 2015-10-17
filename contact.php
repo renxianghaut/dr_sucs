@@ -35,6 +35,7 @@
     }
 ?>
 <!doctype html>
+<!-- Balisage des microdonnées ajouté par l'outil d'aide au balisage de données structurées de Google -->
 <html lang="fr">
 
 <head>
