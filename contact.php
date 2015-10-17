@@ -47,16 +47,26 @@
 
         <?php require('parts/header.php'); ?>
 
-        <div class="content row">
+        <div itemscope itemtype="http://schema.org/LocalBusiness" class="content row">
             <div id="adresse">
-                Dr.F.E Sucs<br/>
-                OPHTALMOLOGIE<br/>
-                23 avenue Emile De Mot<br/>
-                1000 Bruxelles<br/>
+                <span itemprop="name">Dr.F.E Sucs<br/>OPHTALMOLOGIE</span><br/>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">23 avenue Emile De Mot</span><br/>
+                    <span itemprop="postalCode">1000</span>
+                    <span itemprop="addressLocality">Bruxelles</span>
+                </span>
             </div>
             <div id="tel-mail">
-                <span class="glyphicon glyphicon-phone"></span><span class="telephone"><a href="tel:3226475509">+32(0)2 647 55 09</a></span><br/>
-                <span class="glyphicon glyphicon-envelope"></span><a href="mailto:fr.sucs@gmail.com">fr.sucs@gmail.com</a><br/>
+                <span class="glyphicon glyphicon-phone"></span>
+                <span class="telephone">
+                    <a href="tel:3226475509">
+                        <span itemprop="telephone">+32(0)2 647 55 09</span>
+                    </a>
+                </span><br/>
+                <span class="glyphicon glyphicon-envelope"></span>
+                <a href="mailto:fr.sucs@gmail.com">
+                    <span itemprop="email">fr.sucs@gmail.com</span>
+                </a><br/>
             </div>
 
             <?php
