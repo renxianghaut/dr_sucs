@@ -11,6 +11,8 @@
 
 <body>
 
+    <?php require('parts/social.php'); ?>
+
     <div class="container">
         <?php require('parts/header.php'); ?>
         <div class="content row">

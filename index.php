@@ -12,6 +12,8 @@
 
 <body>
 
+    <?php require('parts/social.php'); ?>
+
     <div class="container">
 
         <?php require('parts/header.php'); ?>
@@ -42,7 +44,7 @@
                             <ul>
                             <li>Albert-Ludwigs Universität Freiburg (Allemagne)</li>
                             <li>Ludwig Maximilians Universität (Munchen)</li>
-                            <li>Harvard Medical School - Post Graduate Course in Ophtalmology (USA - Boston)</li>
+                            <li>Harvard Medical School - Post Graduate Course in Ophthalmology (USA - Boston)</li>
                             <li>Université Libre de Bruxelles (hôpital Erasme)</li>
                             </ul>
                         </li>
@@ -58,7 +60,6 @@
                         <li>Diagnostic des maladies rétiniennes</li>
                         <li>Sélection médicale : chauffeurs, conducteurs de train, pilotes, ...</li>
                         <li>Soins esthetiques</li>
-                        <li>Autres examens possible</li>
                     </ul>
                 </div>
                 <div class="photos">

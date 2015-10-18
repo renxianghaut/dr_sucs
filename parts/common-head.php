@@ -3,8 +3,8 @@
         $pagetitle = 'Ophtalmologie Bruxelles Docteur Sucs';
         $pagedesc = "Pour un examen des yeux, un traitement médical, ou esthétique des yeux, prenez contact avec le Dr Sucs Françoise, Ophtalmologue.";
     } else if ($pagename == 'maladie.php') {
-        $pagetitle = 'Les maladie de la vue';
-        $pagedesc = "Les différentes maladies de la vue.";
+        $pagetitle = 'Maladies ophtalmologiques fréquentes';
+        $pagedesc = "Les maladies ophtalmologiques fréquentes";
     } else if ($pagename == 'acces.php') {
         $pagetitle = 'Docteur Sucs - Accès';
         $pagedesc = "Comment se rendre chez l'opthalmologue Docteur Sucs";

@@ -11,12 +11,14 @@
 
 <body>
 
+    <?php require('parts/social.php'); ?>
+
     <div class="container">
 
         <?php require('parts/header.php'); ?>
 
         <div class="content row">
-            <h1>Quelques informations concernant les maladies de l'oeil</h1>
+            <h1>Maladies ophtalmologiques fréquentes</h1>
             <div class="sickness">
                 <img src="img/strabisme.jpg" class="leftimg" />
                 <h2>Strabisme</h2>

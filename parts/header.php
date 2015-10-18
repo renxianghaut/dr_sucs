@@ -9,9 +9,9 @@
         </div>
         <div class="topright">
             <div class="phone">
-                <span class="glyphicon glyphicon-phone"></span><span><a href="tel:3226475509">+32(0)2 647 55 09</a></span>
+                <span class="glyphicon glyphicon-earphone"></span> <span><a href="tel:3226475509">+32(0)2 647 55 09</a></span>
             </div>
-            <div>Prendre rendez-vous, sauf en cas d'urgence</div>
+            <div>Sur rendez-vous, sauf en cas d'urgence</div>
         </div>
     </div>
     <?php require('nav.php'); ?>

@@ -44,6 +44,9 @@
 </head>
 
 <body>
+
+    <?php require('parts/social.php'); ?>
+
     <div class="container">
 
         <?php require('parts/header.php'); ?>
@@ -58,7 +61,7 @@
                 </span>
             </div>
             <div id="tel-mail">
-                <span class="glyphicon glyphicon-phone"></span>
+                <span class="glyphicon glyphicon-earphone"></span>
                 <span class="telephone">
                     <a href="tel:3226475509">
                         <span itemprop="telephone">+32(0)2 647 55 09</span>
@@ -105,7 +108,9 @@
                     </div>
                 </div>
                 <div class="form-group <?php if( isset( $errors['message'] )) { echo "has-error"; }?>">
-                    <label for="message" class="control-label col-sm-2">Message</label>
+                    <label for="message" class="control-label col-sm-2">Message
+                        <img src="img/encrier001.png" alt="encrier" height="200" />
+                    </label>
                     <div class="col-sm-10">
                         <textarea name="message" id="message" class="form-control" rows="10" cols="80" placeholder="Votre message" required><?= $message ?></textarea>
                         <?php if( isset( $errors['message'] )) {
