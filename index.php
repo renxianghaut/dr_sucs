@@ -49,6 +49,7 @@
                             </ul>
                         </li>
                         <li>Trois missions ophtalmologiques au Cambodge (Médecins sans frontiéres)</li>
+                        <li>Formation intensive pratique : Hamburg Allemagne, traitement anti ride sans scalpel (Faltentherapie ohne Skalpell intensive workshop)</li>
                     </ul>
                 </div>
                 <div class="section">
