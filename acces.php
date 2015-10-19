@@ -21,7 +21,8 @@
             <div id="div_carte"></div>
             <div id="transport">
                 <img src="images/car.png" /> - En voiture
-                <p>Nous sommes situés pas loin de l'avenue Louise et du boulevard Général Jacques, parking aisé.</p>
+                <p> Parking aisé.</p>
+                <p> Nous sommes situés près de l'avenue Louise et de l'avenue F. Roosevelt. en face  de l'abbaye de la Cambre .</p>
                 <img src="images/point.png" /> - Coordonnées GPS
                 <p> 50°48'58.7"N 4°22'29.6"E </p>
                 <img src="images/apied.png" /> - Via les transport en commun

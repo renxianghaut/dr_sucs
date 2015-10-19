@@ -33,7 +33,7 @@
                 <span id="langue">En français, nederlands, deutsch, english, magyar.</span>
                 <h2>Situé</h2>
                 en face de l'abbaye de la Cambre (entre l'Avenue Louise et l'Avenue Franklin Roosevelt),
-                <br/>Pas loin du Bld Géneral Jacques <br/> Pas loin de l'UCL
+                <br/> près de ULB
             </div>
             <div class="col-md-6">
                 <div class="section">
@@ -44,23 +44,23 @@
                             <ul>
                             <li>Albert-Ludwigs Universität Freiburg (Allemagne)</li>
                             <li>Ludwig Maximilians Universität (Munchen)</li>
-                            <li>Harvard Medical School - Post Graduate Course in Ophthalmology (USA - Boston)</li>
+                            <li>Harvard Medical School - Post Graduate Course in Ophthalmology (USA)</li>
                             <li>Université Libre de Bruxelles (hôpital Erasme)</li>
                             </ul>
                         </li>
-                        <li>Trois missions ophtalmologiques au Cambodge (Médecins sans frontiéres)</li>
-                        <li>Formation intensive pratique : Hamburg Allemagne, traitement anti ride sans scalpel (Faltentherapie ohne Skalpell intensive workshop)</li>
+                        <li>Trois missions ophtalmologiques au Cambodge (Médecins sans Frontiéres)</li>
+                        <li>Formation intensive pratique en Médecine esthétique, Hamburg (Allemagne): traitement anti-ride sans scalpel (Faltentherapie ohne Skalpell intensive workshop)</li>
                     </ul>
                 </div>
                 <div class="section">
                     <h2>Informations générales</h2>
                     <ul>
                         <li>Examen ophtalmologique général</li>
-                        <li>Examen ophtalmologique pédiatrique avec dépistage du strabisme (aussitôt que possible)</li>
+                        <li>Examen ophtalmologique pédiatrique avec dépistage du strabisme </li>
                         <li>Dépistage du glaucome</li>
                         <li>Diagnostic des maladies rétiniennes</li>
                         <li>Sélection médicale : chauffeurs, conducteurs de train, pilotes, ...</li>
-                        <li>Soins esthetiques</li>
+                        <li>Soins esthetiques:r</li>
                     </ul>
                 </div>
                 <div class="photos">
@@ -78,7 +78,7 @@
                     <li>la Société Belge d'Ophtalmologie</li>
                     <li>la Société Allemande d'Ophtalmologie (D.O.G.)</li>
                     <li>la Société Française d’Ophtalmologie</li>
-                    <li>Société belge de médecine esthétique et société allemande de médecine esthétique.</li>
+                    <li>Société belge de Médecine esthétique et société allemande de Médecine esthétique.</li>
                 </ul>
             </div>
         </div>
