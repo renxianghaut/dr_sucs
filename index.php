@@ -8,6 +8,10 @@
     <?php require('parts/common-head.php'); ?>
     <link rel="stylesheet" type="text/css" href="css/jquery.simplyscroll.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="css/lightbox.css" rel="stylesheet">
+
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/lightbox.js"></script>
 </head>
 
 <body>
@@ -65,9 +69,10 @@
                 </div>
                 <div class="photos">
                     <ul id="scroller">
-                        <li><img src="img/entree.jpg" /></li>
-                        <li><img src="img/lunette.jpg" /></li>
-                        <li><img src="img/coin.jpg" /></li>
+                        <li><a href="img/entree.jpg" rel="lightbox[roadtrip]"><img src="img/entree.jpg" /></a></li>
+                        <li><a href="img/lunette.jpg" rel="lightbox[roadtrip]"><img src="img/lunette.jpg" /></a></li>
+                        <li><a href="img/coin.jpg" rel="lightbox[roadtrip]"><img src="img/coin.jpg" /></a></li>
+                        <li><a href="img/imeuble.jpg" rel="lightbox[roadtrip]"><img src="img/imeuble.jpg" /></a></li>
                     </ul>
                 </div>
             </div>

@@ -29,3 +29,7 @@ h2 {
 	float:right;
 	padding:10px;
 }
+#text-sousligne {
+    text-decoration: underline;
+    color: black;
+}
